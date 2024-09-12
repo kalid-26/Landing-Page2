@@ -1,0 +1,271 @@
+@font-face {
+    font-family: font1;
+    src: url(assets/fonts/font1.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font1;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+:root{
+    --primaryColor: #9AE975;
+}
+
+/* navigation section design  */
+.section1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* background-color: #f8eac2; */
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+nav h1{
+    font-size: 30px;
+}
+
+.star-icon{
+    display: inline-block;
+    rotate: 45deg;
+}
+
+
+nav .nav-links ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav .nav-links ul li a{
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+nav .nav-links ul li a:hover{
+    color: var(--primaryColor)
+}
+
+nav .nav-links ul .btn{
+    padding: 10px 10px;
+    background-color: transparent;
+    font-size: 15px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: block;
+}
+
+nav .nav-links ul .btn:hover{
+   background-color: var(--primaryColor);
+   color: white;
+}
+
+/* end of navigation section design  */
+
+/* hero section design  */
+
+.hero_sec{
+    padding: 60px  ;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.hero_left{
+    height: 100%;
+    width: 44%;
+}
+
+.hero_left h1{
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+.hero_left p{
+    font-size: 15px;
+    font-weight: normal;
+    width: 90%;
+    margin-bottom: 12px;
+}
+
+.hero_left .btn{
+    padding: 10px 10px;
+    background-color: black;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+}
+.hero_left .btn:hover{
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+.hero_right{
+    height: 100%;
+    width: 56%;
+    position: relative;
+}
+
+.hero_right img{
+    position: absolute;
+    right: 0;
+    width: 70%;
+    display: block;
+}
+
+/* end of hero section design  */
+
+/* section1 bottom design  */
+.section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+    background-color: #9AE975;
+    /* background-color: var(--primaryColor); */
+}
+
+.section1bottom img{   
+    height: 60px;
+}
+
+/* end section1 bottom design  */
+
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+
+
+
+/* starting point of section2  */
+
+.section2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.section2 .text-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+    padding: 60px;
+}
+.section2 .text-container h4{
+    font-size: 30px;
+    padding: 7px;
+    background: var(--primaryColor);
+
+}
+.section2 .text-container p{
+    font-size: 15px;
+    width: 60%;
+}
+
+
+.section2 .card-container{
+    min-height: 83%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 10px 70px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.section2 .card-container .card{
+    height: 250px;
+    width: 48%;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 0px 15px 0px black;
+    padding: 30px;
+}
+
+.card-body{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.card-body .card-img{
+    width: 70%;
+    align-self: flex-end;
+}
+
+.card-body .card-img img{
+    width: 250%;
+    margin-left: 70%;
+}
+.card-body .card-text{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card-container .black{
+    background: #000;
+    color: white;
+}
+
+
+
+
+
+    
+.section3{
+    max-width: 1200px;
+    margin: 60px;
+    background: linear-gradient(rgba(208, 253, 84, 0.845), rgb(242, 253, 86)),url(assets/img/Hero.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+/* .section3 .imgBox{
+    background: #000;
+}
+ */
+
+
+
+
+
+
+
+
+
